@@ -32,5 +32,3 @@ def password(length, count, t4_activ = True):
 
     for i in np.array_split(answer, count):
         print(''.join(i))
-
-password(10, 15)
